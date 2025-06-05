@@ -1,0 +1,125 @@
+/* General styling for the website */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url('constitution bg.jpeg'); /* Default background */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background 0.5s ease;
+}
+
+/* Header styling */
+header {
+    background-color: rgba(76, 175, 80, 0.8);
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Content area for Learning, Games, Chatbot, and Social Engagement */
+.content-area {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    flex-wrap: wrap; /* Allow wrapping */
+}
+
+.content-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    max-width: 250px;
+}
+
+.content-option img {
+    width: 180px;
+    height: 180px;
+    border-radius: 20px; /* Round corners */
+    transition: transform 0.3s ease;
+}
+
+.content-option img:hover {
+    transform: scale(1.1);
+}
+
+.content-option button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.content-option button:hover {
+    background-color: #45a049;
+}
+
+/* Social engagement styling */
+.social-engagement {
+    background-color: rgba(241, 241, 241, 0.8);
+    padding: 15px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Specific styling for each age group */
+body.kids {
+    background-image: url('kids playing.jpeg');
+}
+
+body.teens {
+    background-image: url('teens bg.jpeg');
+}
+
+body.adults {
+    background-image: url('adults bg.jpeg');
+}
+
+/* Age-specific content styling */
+.age-specific-content {
+    display: none;
+}
+
+.kids-content {
+    display: block;
+}
+
+.teens-content {
+    display: block;
+}
+
+.adults-content {
+    display: block;
+}
+
+/* Header styling for different sections */
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Profile button styling */
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #009688;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00796B;
+}
